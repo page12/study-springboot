@@ -10,7 +10,7 @@ public class User extends BaseBean {
     private long id;
     private String name;
     private String email;
-    @JSONField(serialize=false) // 这个是fastjson的注解，只有使用fastjson时才生效，可以用来检测是否使用了fastjson
+    @JSONField(serialize=false, deserialize=false) // 这个是fastjson的注解，只有使用fastjson时才生效，可以用来检测是否使用了fastjson
     private Date createTime;
 
     public long getId() {

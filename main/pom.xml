@@ -11,7 +11,7 @@
   </parent>
 
   <properties>
-    <fastjson.version>1.2.41</fastjson.version>
+    <fastjson.version>1.2.44</fastjson.version>
   </properties>
 
   <dependencies>
@@ -29,6 +29,11 @@
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>${fastjson.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
